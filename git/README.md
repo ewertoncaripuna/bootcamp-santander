@@ -8,3 +8,5 @@ Repositório de estudo sobre git e github oferecido pelo Bootcamp de especializa
 - [Git](https://git-scm.com/doc) 
 - [Github Docs](https://docs.github.com/en) 
 
+- [Git](https://git-scm.com/doc) 
+- [Github Docs](https://docs.github.com/en) 
