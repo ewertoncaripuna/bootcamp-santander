@@ -9,16 +9,26 @@ herança e poliformismo.
 ```mermaid
 classDiagram
     class ReprodutorMusical {
-        +void tocar()
-        +void pausar()
-        +void selecionarMusica(String musica)
+        +tocar()
+        +pausar()
+        +selecionarMusica(musica: String)
     }
 
     class AparelhoTelefonico {
-        +void ligar(String numero)
-        +void atender()
-        +void iniciarCorreioVoz()
+        +ligar(numero: String)
+        +atender()
+        +iniciarCorreioVoz()
     }
 
     class NavegadorInternet {
-        +
+        +exibirPagina(url: String)
+        +adicionarNovaAba()
+        +atualizarPagina()
+    }
+
+    class IPhone {
+    }
+
+    IPhone ..|> ReprodutorMusical
+    IPhone ..|> AparelhoTelefonico
+    IPhone ..|> NavegadorInternet
